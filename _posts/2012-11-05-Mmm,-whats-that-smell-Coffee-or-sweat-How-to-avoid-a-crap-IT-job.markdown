@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Mmm, what''s that smell: Coffee or sweat? How to avoid a crap IT job'
+categories:
+- Found and Linked
+- found and linked
+- job
+permalink: "/archives/36-Mmm,-whats-that-smell-Coffee-or-sweat-How-to-avoid-a-crap-IT-job.html"
+s9y_link: http://wicket-game.gwassist.de/archives/36-Mmm,-whats-that-smell-Coffee-or-sweat-How-to-avoid-a-crap-IT-job.html
+date: 2012-11-05 11:24:51.000000000 +01:00
+---
+<p>This is the first part of a series I'm waiting to read as soon as it gets published. Most of the stuff isn't really new but the writeup is nice. It just collects the telltale signs of jobs you just shouldn't take like getting no coffee, having to wait very long, getting no office tour or seeing all the wrong stuff on the tour. Check the chairs, you'll spend some time in them, as well as the screens, a second screen or large screens cost a fraction of your pay, so there's no reason, a company shouldn't have them. Additionally, the comments add some interesting details like checking the state of the employee restrooms... <br /></p> 
+<p>On to the good stuff... here's the <a href="http://www.theregister.co.uk/2012/11/05/how_to_do_it_interview/" target="_blank">link</a>.<br /> And the second part is published too: <a target="_blank" href="http://www.theregister.co.uk/2012/11/12/spotting_a_psycho_boss/">How to spot a terrible tech boss within SECONDS</a><br /></p>
