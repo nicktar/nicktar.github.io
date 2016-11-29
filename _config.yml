@@ -1,1 +1,10 @@
 highlighter: rouge
+excerpt_separator: "\n\n"
+
+paginte: 7
+paginate_path: "/blog/page:num/"
+
+gems:
+    ["jekyll-paginate"]
+
+ 
