@@ -1,0 +1,27 @@
+---
+layout: post
+title: JNDI with Eclipse, Jetty, Hibernate (and Wicket)
+categories:
+- Apache Wicket
+- apache
+- apache wicket
+- c3po
+- guildwars assistant
+- gwassist.de
+- hibernate
+- j2ee
+- java
+- java enterprise
+- jee
+- jetty
+- jetty-env.xml
+- jndi
+- jpa
+- software development
+- wicket
+permalink: "/archives/2-JNDI-with-Eclipse,-Jetty,-Hibernate-and-Wicket.html"
+s9y_link: http://wicket-game.gwassist.de/archives/2-JNDI-with-Eclipse,-Jetty,-Hibernate-and-Wicket.html
+date: 2011-12-15 14:21:24.000000000 +01:00
+---
+<p>In <a href="http://wicket-game.gwassist.de/archives/11-Sending-an-email-programmatically-via-an-password-protected-SMTP-server.html">a previous post (Sending an email programmatically via an password protected SMTP-server)</a> I pondered about where to put the config-files for my mail server and database since all of the environments (my dev box, the test server and the production machine) use different accounts with different passwords (and partially different settings). I decided that the best place would be the webserver users home directory, which solves the problem of having different configurations on different systems but introduces a new risk of a new deploy-step needed to update changed configurations (namely added database entities in hibernate.cfg.xml) which I simply forgot more than once. Since it only happened on the test server which didn't start due to missing entities this was easy to spot, easy to fix and not a problem as such. But chances are, that this might happen with more important things that don't fail at once so there's got to be a better way, which comes by the name of JNDI (which translates to <em>Java Naming and Directory Interface</em> and not to <em>Just Not Directly Intuitive</em> which might be fitting as well).</p> 
+<p>JNDI offloads the burden of acquiring resources from your web-application to your application server. Considering that these are most likely to stay the same for each given environment this sounds like a really good idea. Additionally it allows you to separate your Hibernate configuration from your database and C3P0 config which is a good idea on it's own as well.</p> <br /><a href="http://wicket-game.gwassist.de/archives/2-JNDI-with-Eclipse,-Jetty,-Hibernate-and-Wicket.html#extended">Continue reading "JNDI with Eclipse, Jetty, Hibernate (and Wicket)"</a>
