@@ -2,17 +2,13 @@
 layout: post
 title: Access PageParameter objects from your Panel in a testable way
 categories:
-- Apache Wicket
-- apache
 - apache wicket
+- wicket
 - dependency injection
-- guildwars assistant
-- gwassist.de
 - java
 - software development
 - wickettester
 permalink: "/archives/14-Access-PageParameter-objects-from-your-Panel-in-a-testable-way.html"
-s9y_link: http://wicket-game.gwassist.de/archives/14-Access-PageParameter-objects-from-your-Panel-in-a-testable-way.html
 date: 2011-03-29 14:32:31.000000000 +02:00
 ---
 <p>When trying to build stateless pages without the user noticing, like building an application using AjaxFallBackLinks and reusing the fall-back to provide a search-engine-friendly version of your application, you've got to put the state into PageParamaters, which can be transported via bookmarkable links.</p> 
