@@ -100,7 +100,7 @@ body {
 /* Content (Column 1)
 -------------------------------------------------------------- */
 #content {
-	background: url(assets/notepad-middle.png) repeat-y;
+	background: url(/assets/notepad-middle.png) repeat-y;
 	width: 870px;
 	margin: 0 auto;
 	padding: 0 20px 0 70px;
@@ -179,7 +179,7 @@ blockquote cite:before {
 	margin: 0;
 	padding: 0 0 10px;
 	overflow: hidden;
-	background: url(assets/line.png) repeat-x bottom; }
+	background: url(/assets/line.png) repeat-x bottom; }
 #content .col01 h1 a {
 	color: #000;
 	text-decoration: none; }
@@ -223,7 +223,7 @@ blockquote cite:before {
 	font-size: 90%;
 	text-align: right;
 	padding-top: 8px;
-	background: url(assets/line.png) repeat-x top; }
+	background: url(/assets/line.png) repeat-x top; }
 #content .bypostauthor { }
 
 #content .col01 .post-inner {
@@ -322,7 +322,7 @@ blockquote cite:before {
 -------------------------------------------------------------- */
 #sidebar .yellow-sticker-middle {
 	width: 212px;
-	background: url(assets/yellow-sticker-middle.png) repeat-y; }
+	background: url(/assets/yellow-sticker-middle.png) repeat-y; }
 #sidebar .yellow-sticker-middle ul {
 	padding: 0;
 	margin: 0;
@@ -356,7 +356,7 @@ blockquote cite:before {
 #sidebar .yellow-sticker-bottom {
 	width: 188px;
 	height: 62px;
-	background: url(assets/yellow-sticker-bottom.png) no-repeat left bottom;
+	background: url(/assets/yellow-sticker-bottom.png) no-repeat left bottom;
 	padding: 12px 12px 0;
 	font-size: 100%;
 	text-align: right; }
@@ -365,10 +365,10 @@ blockquote cite:before {
 -------------------------------------------------------------- */
 #sidebar .white-sticker-top {
 	height: 124px;
-	background: url(assets/white-sticker-top.png) no-repeat; }
+	background: url(/assets/white-sticker-top.png) no-repeat; }
 #sidebar .white-sticker-middle {
 	width: 212px;
-	background: url(assets/white-sticker-middle.png) repeat-y; }
+	background: url(/assets/white-sticker-middle.png) repeat-y; }
 #sidebar .white-sticker-middle ul {
 	padding: 0;
 	margin: 0; }
@@ -392,7 +392,7 @@ blockquote cite:before {
 #sidebar .white-sticker-bottom {
 	width: 188px;
 	height: 62px;
-	background: url(assets/white-sticker-bottom.png) no-repeat;
+	background: url(/assets/white-sticker-bottom.png) no-repeat;
 	padding: 12px 12px 0;
 	font-size: 70%;
 	text-align: right; }
@@ -403,7 +403,7 @@ blockquote cite:before {
 
 /* About Widget */
 #sidebar .about-widget {
-	background: url(assets/about-label.png) no-repeat 10px 5px;
+	background: url(/assets/about-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px;
 	font-family: Forum, Times New Roman, Times, Georgia, serif;
 	font-size: 100%;
@@ -412,7 +412,7 @@ blockquote cite:before {
 /* Links Widget */
 #sidebar .links-widget {
 	text-align: center;
-	background: url(assets/links-label.png) no-repeat 10px 5px;
+	background: url(/assets/links-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px; }
 #sidebar .links-widget ul {
 	margin: 0;
@@ -421,7 +421,7 @@ blockquote cite:before {
 	font-size: 100%;
 	line-height: 110%;
 	list-style: none;
-	background: url(assets/line.png) no-repeat bottom; }
+	background: url(/assets/line.png) no-repeat bottom; }
 #sidebar .links-widget ul li a {
 	color: #21565E;
 	margin: 0 auto;
@@ -519,7 +519,7 @@ img.alignleft {
 	margin: 0 auto;
 	margin-top: -20px;
 	position: relative;
-	background: url(assets/notepad-bottom.png) no-repeat;
+	background: url(/assets/notepad-bottom.png) no-repeat;
 	min-height: 60px; }
 #footer .site-info {
 	text-align: center;
@@ -643,7 +643,7 @@ p.comments-title {
 	padding: 0; }
 .commentlist li {
 	padding: 12px 0;
-	background: url(assets/line.png) no-repeat bottom;
+	background: url(/assets/line.png) no-repeat bottom;
 	line-height: 125%;
 	list-style: none; }
 .commentlist li a {
