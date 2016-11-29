@@ -1,39 +1,4 @@
-/*
- Theme Name: Anarcho Notepad
- Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
- Author: Arthur Gareginyan
- Author URI: http://www.arthurgareginyan.com
- Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
- Version: 2.30
- License: GNU General Public License v3
- License URI: http://www.gnu.org/licenses/gpl-3.0.html
- Tags: two-columns, right-sidebar, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
- Text Domain: anarcho-notepad
- 
- Copyright (c) 2013-2016, Arthur Gareginyan
-*/
-
-
-/* Fonts
--------------------------------------------------------------- */
-@font-face {
-	font-family: 'Forum';
-	src: url('fonts/forum/Forum.eot');
-	src: url('fonts/forum/Forum.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/forum/Forum.woff') format('woff'),
-	     url('fonts/forum/Forum.ttf') format('truetype'),
-	     url('fonts/forum/Forum.svg#Forum') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-section,
-article,
-header,
-footer,
-nav,
-aside,
-hgroup { display: block; }
+section, article, header, footer, nav, aside, hgroup { display: block; }
 
 [hidden] { display: none; }
 
@@ -82,8 +47,6 @@ div.aligncenter {
 	line-height: 17px;
 	padding: 0 4px 5px;
 	margin: 0; }
-.gallery-caption { }
-.sticky { }
 
 /* Background
 -------------------------------------------------------------- */
@@ -128,31 +91,16 @@ body {
 	text-decoration: none;
 	border-bottom: 1px solid #e7d8cf; }
 
-/* Search Form (Header)
--------------------------------------------------------------- */
-.top-search-form {
-	padding-top: 0.3%;
-	margin-left: 67%;
-	width: 25%; }
-
 /* Assistive Text
 -------------------------------------------------------------- */
 .screen-reader-text {
 	position: absolute !important;
 	clip: rect(1px, 1px, 1px, 1px); }
 
-/* Search Form (Widget)
--------------------------------------------------------------- */
-.search-field {
-	width: 100%; }
-
-.search-submit {
-	display: none; }
-
 /* Content (Column 1)
 -------------------------------------------------------------- */
 #content {
-	background: url(images/notepad-middle.png) repeat-y;
+	background: url(assets/notepad-middle.png) repeat-y;
 	width: 870px;
 	margin: 0 auto;
 	padding: 0 20px 0 70px;
@@ -231,7 +179,7 @@ blockquote cite:before {
 	margin: 0;
 	padding: 0 0 10px;
 	overflow: hidden;
-	background: url(images/line.png) repeat-x bottom; }
+	background: url(assets/line.png) repeat-x bottom; }
 #content .col01 h1 a {
 	color: #000;
 	text-decoration: none; }
@@ -255,16 +203,6 @@ blockquote cite:before {
 /* Author info box after post
 -------------------------------------------------------------- */
 /* Transforme author-avatar */
-.author-avatar img{ 
-	-moz-transform: rotate(-9deg);
-	-webkit-transform: rotate(-9deg);
-	-o-transform: rotate(-9deg);
-	transform: rotate(-9deg);
-	-ms-transform: rotate(-9eg);
-	-ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod="auto expand", enabled=true)'; }
- 
-*+html .transform img{ 
-	filter:progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true); }
 #content .col01 .author-info {
 	border-top: 2px solid #939393;
 	border-bottom: 2px solid #939393;
@@ -285,7 +223,7 @@ blockquote cite:before {
 	font-size: 90%;
 	text-align: right;
 	padding-top: 8px;
-	background: url(images/line.png) repeat-x top; }
+	background: url(assets/line.png) repeat-x top; }
 #content .bypostauthor { }
 
 #content .col01 .post-inner {
@@ -384,7 +322,7 @@ blockquote cite:before {
 -------------------------------------------------------------- */
 #sidebar .yellow-sticker-middle {
 	width: 212px;
-	background: url(images/yellow-sticker-middle.png) repeat-y; }
+	background: url(assets/yellow-sticker-middle.png) repeat-y; }
 #sidebar .yellow-sticker-middle ul {
 	padding: 0;
 	margin: 0;
@@ -418,7 +356,7 @@ blockquote cite:before {
 #sidebar .yellow-sticker-bottom {
 	width: 188px;
 	height: 62px;
-	background: url(images/yellow-sticker-bottom.png) no-repeat left bottom;
+	background: url(assets/yellow-sticker-bottom.png) no-repeat left bottom;
 	padding: 12px 12px 0;
 	font-size: 100%;
 	text-align: right; }
@@ -427,10 +365,10 @@ blockquote cite:before {
 -------------------------------------------------------------- */
 #sidebar .white-sticker-top {
 	height: 124px;
-	background: url(images/white-sticker-top.png) no-repeat; }
+	background: url(assets/white-sticker-top.png) no-repeat; }
 #sidebar .white-sticker-middle {
 	width: 212px;
-	background: url(images/white-sticker-middle.png) repeat-y; }
+	background: url(assets/white-sticker-middle.png) repeat-y; }
 #sidebar .white-sticker-middle ul {
 	padding: 0;
 	margin: 0; }
@@ -454,7 +392,7 @@ blockquote cite:before {
 #sidebar .white-sticker-bottom {
 	width: 188px;
 	height: 62px;
-	background: url(images/white-sticker-bottom.png) no-repeat;
+	background: url(assets/white-sticker-bottom.png) no-repeat;
 	padding: 12px 12px 0;
 	font-size: 70%;
 	text-align: right; }
@@ -465,7 +403,7 @@ blockquote cite:before {
 
 /* About Widget */
 #sidebar .about-widget {
-	background: url(images/about-label.png) no-repeat 10px 5px;
+	background: url(assets/about-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px;
 	font-family: Forum, Times New Roman, Times, Georgia, serif;
 	font-size: 100%;
@@ -474,7 +412,7 @@ blockquote cite:before {
 /* Links Widget */
 #sidebar .links-widget {
 	text-align: center;
-	background: url(images/links-label.png) no-repeat 10px 5px;
+	background: url(assets/links-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px; }
 #sidebar .links-widget ul {
 	margin: 0;
@@ -483,7 +421,7 @@ blockquote cite:before {
 	font-size: 100%;
 	line-height: 110%;
 	list-style: none;
-	background: url(images/line.png) no-repeat bottom; }
+	background: url(assets/line.png) no-repeat bottom; }
 #sidebar .links-widget ul li a {
 	color: #21565E;
 	margin: 0 auto;
@@ -581,7 +519,7 @@ img.alignleft {
 	margin: 0 auto;
 	margin-top: -20px;
 	position: relative;
-	background: url(images/notepad-bottom.png) no-repeat;
+	background: url(assets/notepad-bottom.png) no-repeat;
 	min-height: 60px; }
 #footer .site-info {
 	text-align: center;
@@ -705,7 +643,7 @@ p.comments-title {
 	padding: 0; }
 .commentlist li {
 	padding: 12px 0;
-	background: url(images/line.png) no-repeat bottom;
+	background: url(assets/line.png) no-repeat bottom;
 	line-height: 125%;
 	list-style: none; }
 .commentlist li a {
