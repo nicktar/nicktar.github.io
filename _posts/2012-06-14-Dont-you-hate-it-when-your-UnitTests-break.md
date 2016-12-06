@@ -35,7 +35,7 @@ Make sure your test always does the very same with the very same result. It is t
 
 A good tests runs thousands of times and (as long as there is nothing wrong) creates the same results every time.
 
-Having tests wait while something other happens and requiring the results is a bad idea. Timing might be difficult. The "something else" might break or go away. You're most definitely testing outside of your scope. Just to name a few.
+Having tests wait while something other happens and requiring the results is a bad idea because of so many reasons. Timing might be difficult. The "something else" might break or go away. You're most definitely testing outside of your scope. Just to name a few.
 
 Just with every other test, you should have one test for the border of each equivalence class of valid and invalid data. You can't have that using random stuff. Even data that's somehow needed but not relevant to the test should be deterministic (as in hard coded). That's one of the biggest differences between writing tests and developing "real code". In tests, hard coding data is good. Another big difference is that within tests, there is no DRY (Don't repeat yourself). If you don't want to rely on anything outside of your scope, you need to mock it and most likely need to mock it again and again and again. Sure, you can use methods to create your mocks but these should be completely under your control as the developer of the test. As a result of this, they should be private and reside within your class (otherwise you wouldn't be able to use these private methods). Code reuse in tests makes them more fragile so the copy and paste development anti-pattern can find it's niche in test development.
 
