@@ -22,4 +22,4 @@ This book was a complete waste of money, time, paper and ink and I pity the tree
 
 <img src="/assets/1of5.png" />
 
- Link (just in case): [Rickford Grant & Phil Bull – Ubuntu for Non-Geeks](http://amzn.to/fBgW9Q)
+Link (just in case): [Rickford Grant & Phil Bull – Ubuntu for Non-Geeks](http://amzn.to/fBgW9Q)
