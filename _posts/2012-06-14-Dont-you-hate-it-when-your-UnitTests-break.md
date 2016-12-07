@@ -15,6 +15,7 @@ tags:
 - unit test
 - unittest
 date: 2012-06-14 19:25:00.000000000 +02:00
+comments: true
 ---
 UnitTests are great. Period. This fact has been established among developers. It helps to make sure your new code doesn't break anything else. It gives you regression testing "for free" and it can even be used as a design method (Test Driven Development). But tests break and they don't only break when code changes and new bugs are introduced to the system. They might break more or less on their own, when they aren't properly written. This causes work since you'll have to find out why this test is broken. Did you just break the feature under test or was the test just to fragile? was it you or was it the developer of the test?
 

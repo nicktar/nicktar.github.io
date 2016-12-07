@@ -5,6 +5,7 @@ tags:
 - java
 - performance
 date: 2013-01-30 12:21:00.000000000 +01:00
+comments: true
 ---
 One of the most intuitive optimizations the JVM performs is method inlining. It addresses two performance issues and if kept in mind might lead to a code that's better structured and readable. Methods as a concept are quite expensive. To call a method, the JVM has to find the target for dynamic invocation, has to store the current scope on stack, has to jump to the method in question. After executing the method, the JVM has to retrieve the saved scope from the stack and resume working where it left of. Additionally method calls reduce the effectiveness of other optimization methods.
 

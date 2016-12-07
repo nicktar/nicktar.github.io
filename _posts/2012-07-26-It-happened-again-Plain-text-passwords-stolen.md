@@ -8,6 +8,7 @@ tags:
 - salt
 - security
 date: 2012-07-26 09:12:18.000000000 +02:00
+comments: true
 ---
 Today another case of criminal grade thoughtlessness made the (german) [IT news](http://heise.de/-1652304). The on-line dating platform [meetOne](http://www.meetone.com/) was found to grant access to data like "childrenNumber", "schooling", "yearlyIncome", "sexuality"  and "searchOneNightStand" or the plain-text password along with the matching email address of everyone to anyone who was able to change a single URL-Parameter. This change was a simple increase or decrease of a number not some fancy CrossSiteScripting-style JavaScript- or math-voodoo. 
 

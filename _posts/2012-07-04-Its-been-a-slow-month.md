@@ -11,6 +11,7 @@ tags:
 - wicket
 - wicket-crudr
 date: 2012-07-04 12:56:58.000000000 +02:00
+comments: true
 ---
 It's been a slow month for CRUDr in June. With some days off, more work at my day job and other distractions, there wasn't much in terms of accomplishment for the project. First steps were made for filtering, sorting and validating data and some tiny steps in terms of a demo application.
 

@@ -106,16 +106,15 @@ body {
 	padding: 0 20px 0 70px;
 	word-wrap: break-word; }
 
-pre, code {
+code {
 	margin: 3px;
-	padding: 10px;
 	background: #ececec;
 	box-sizing: border-box;
-	border: 1px solid #939393;
 	-moz-box-sizing: border-box;
 	webkit-box-sizing: border-box;
 	display: block;
-	overflow-x: auto; }
+	overflow-x: auto; 
+	width: 100%}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -125,7 +124,6 @@ table {
 	padding: 1em;
 	line-height: 2;
 	font-size: 90%; }
-td,
 th {
 	border: 1px solid #111;
 	padding: .5em .5em;
@@ -163,6 +161,9 @@ blockquote cite {
 	margin-top: 5px; }
 blockquote cite:before {
 	content: "\2014 \2009"; }
+td.gutter.gl {
+	padding-right: 10px;
+}
 
 #content .col01 {
 	float: left;
@@ -455,16 +456,6 @@ img,
 .widget img,
 .wp-caption {
 	max-width: 100%; }
-
-/* Make sure images with WordPress-added height and width attributes are scaled correctly. */
-.entry-content img,
-.entry-summary img,
-.comment-content img[height],
-img[class*="align"],
-img[class*="wp-image-"],
-img[class*="attachment-"] {
-	height: auto;
-}
 
 .size-large {
 	height: 100%; }
@@ -816,7 +807,3 @@ p.comments-title {
 .sitemap-authors li, .sitemap-pages li, .sitemap-archives li {
 	padding-bottom: 5px; }
 
-/* Remove The WordPress Stats Smiley Face added by JetPack plugin
-   because it messes up design
- -------------------------------------------------------------- */
-img#wpstats { display: none; }

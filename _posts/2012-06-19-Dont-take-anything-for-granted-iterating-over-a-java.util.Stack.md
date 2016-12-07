@@ -11,6 +11,7 @@ tags:
 - rant
 - software development
 date: 2012-06-19 20:14:00.000000000 +02:00
+comments: true
 ---
 Don't ever think just because a certain way of doing things seems reasonable or logical to you or anyone else means it's implemented that way.
 

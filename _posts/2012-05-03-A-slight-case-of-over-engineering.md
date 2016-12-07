@@ -8,6 +8,7 @@ tags:
 - wicket
 - wicket-crudr
 date: 2012-05-03 18:45:14.000000000 +02:00
+comments: true
 ---
 When I set out to create Wicket-CRUD, I envisioned a small and lightweight set of components that would deliver all the basic scaffolding options to Wicket. Right now I'm not so sure about the lightweight-part. I's still a small set of components (a table-component, an editor, some Annotations and an Interface) with a small API. I don't know when I started on the path of over engineering but I think right now I'm committed to it (at least for this project). Two collumn-types collectiong their various parts to provide all the functionality from several providers created by a couple of factories, kept together (and apart) by no less than 8 Interfaces... All in all the project contains some 50 code-files and it's still growing. 
 

@@ -7,6 +7,7 @@ tags:
 - wicket
 - wicket-crudr
 date: 2012-11-29 09:04:11.000000000 +01:00
+comments: true
 ---
 Now, that the project is a little more than 7 months old and taking it slow due to other obligations, I'd like to offer a little summary on the current state of the project.
 

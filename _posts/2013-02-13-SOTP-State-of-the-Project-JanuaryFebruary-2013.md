@@ -2,12 +2,12 @@
 layout: post
 title: SOTP (State of the Project) - January/February 2013
 tags:
-- Wicket-CRUDr
 - apache wicket
 - sotp
 - wicket
 - wicket-crudr
 date: 2013-02-13 11:13:55.000000000 +01:00
+comments: true
 ---
 Sorry for posting this quite late or missing the January update (depending on the point of view). The new year started with a high workload at the office so that there weren't many days were I wanted to continue working at home. So this is pretty short.
 

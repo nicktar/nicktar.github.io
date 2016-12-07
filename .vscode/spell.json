@@ -7,7 +7,9 @@
     "inlined",
     "UnitTests",
     "jMock",
-    "jMockit"
+    "jMockit",
+    "j2ee",
+    "jmock"
   ],
   "mistakeTypeToStatus": {
     "Passive voice": "Hint",

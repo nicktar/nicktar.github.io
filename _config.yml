@@ -1,10 +1,15 @@
 highlighter: rouge
+
 excerpt_separator: "\n\n"
 
-paginte: 7
-paginate_path: "/blog/page:num/"
+paginate: 7
+#paginate_path: "/blog/page:num/"
 
-gems:
-    ["jekyll-paginate"]
+name: Developer Notebook
+decription: "Ideas, Thoughts, Notes to self and mixed Ramblings and Rants"
+
+#permalink: pretty
+
+gems: [jekyll-paginate]
 
  

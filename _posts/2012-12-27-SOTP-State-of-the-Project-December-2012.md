@@ -7,6 +7,7 @@ tags:
 - status
 - wicket-crudr
 date: 2012-12-27 16:31:40.000000000 +01:00
+comments: true
 ---
 I was finally able to track down the elusive bug mentioned in last month's SOTP, where 1:n relationships weren't displayed correctly after the model of the master component got changed. Since they weren't updated along with the rest of the displayed data, I was hunting for the place where the model chain was broken. As the model chain was in fact unbroken, this search took me a couple of days but didn't help at all. The reason why the data wasn't displayed corretly was the fact that these relations were constructed with a wrong type of model provider and thus a properly chained but completely wrong model was used. Now it kind of works but this spot needs more work done before I'm happy with this.
 
