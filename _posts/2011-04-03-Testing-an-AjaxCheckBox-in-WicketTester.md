@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing an AjaxCheckBox in WicketTester
-categories:
+tags:
 - apache
 - apache wicket
 - formtester
@@ -12,9 +12,9 @@ categories:
 - wickettester
 date: 2011-04-03 15:49:10.000000000 +02:00
 ---
-<p>Setting up a unit test for a form containing an AjaxCheckBox seems pretty straightforward and simple. So simple that it's easy to forget two essential steps...</p> 
+Setting up a unit test for a form containing an AjaxCheckBox seems pretty straightforward and simple. So simple that it's easy to forget two essential steps... 
 
-<code><code-java> 
+{% highlight java linenos %} 
 @Test
 public void testDeSelectingCheckbox() {
     WicketTester tester = new WicketTester ( new WicketApplication());
@@ -31,9 +31,10 @@ public void testDeSelectingCheckbox() {
     tester.assertLabel("text","false");
     org.junit.Assert.assertFalse("Final value should be false.", homePage.getValue());
 }
-</code-java></code>
-<p>At a first glance this test looks ok, and it even runs perfectly. While this one, looking very similar, fails miserably</p> 
-<code><code-java> 
+{% endhighlight %}
+At a first glance this test looks ok, and it even runs perfectly. While this one, looking very similar, fails miserably
+
+{% highlight java linenos %} 
 @Test
 public void testSelectingCheckbox() {
     WicketTester tester = new WicketTester(new WicketApplication());
@@ -50,9 +51,10 @@ public void testSelectingCheckbox() {
     tester.assertLabel("text","true");
     org.junit.Assert.assertTrue("Final value should be true.", homePage.getValue());
 }
-</code-java></code>
-<p>After some head-scratching and even considering a bug in WicketTester one could spot 2 little lines missing from both test cases rendering them both useless since the value of the checkbox' model will always be false after the test is run.</p> 
-<code><code-java> 
+{% endhighlight %}
+After some head-scratching and even considering a bug in WicketTester one could spot 2 little lines missing from both test cases rendering them both useless since the value of the checkbox' model will always be false after the test is run.
+
+{% highlight java linenos %} 
 @Test
 public void testSelectingCheckbox() {
     WicketTester tester = new WicketTester(new WicketApplication());
@@ -71,7 +73,7 @@ public void testSelectingCheckbox() {
     tester.assertLabel("text","true");
     org.junit.Assert.assertTrue("Final value should be true.", homePage.getValue());
 }
-</code-java></code> 
-<p>The magic lies within the lines 12 and 13. Even if you've got no obvious value to set, when testing forms and formcomponents, you need to use FormTester no matter what.</p>
+{% endhighlight %} 
+The magic lies within the lines 12 and 13. Even if you've got no obvious value to set, when testing forms and formcomponents, you need to use FormTester no matter what.
 
 <p>Simple, easy and true but equaly easy to forget and thus wasting a couple of hours, trying to figure out what's wrong.</p>
