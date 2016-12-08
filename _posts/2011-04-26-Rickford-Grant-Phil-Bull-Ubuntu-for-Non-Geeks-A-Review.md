@@ -20,6 +20,6 @@ But the final straw came, when they called Java "the mother of all scripting lan
 
 This book was a complete waste of money, time, paper and ink and I pity the trees that left their lives to print this.
 
-<img src="/assets/1of5.png" />
+<img src="{{ "/assets/1of5.png" | absolute_url }}" />
 
 Link (just in case): [Rickford Grant & Phil Bull – Ubuntu for Non-Geeks](http://amzn.to/fBgW9Q)

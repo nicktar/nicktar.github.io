@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Off to new shores!  '
+title: Off to new shores!
 tags:
 - blog
 date: 2012-02-15 15:47:27.000000000 +01:00
