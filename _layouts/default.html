@@ -5,28 +5,18 @@
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link rel="stylesheet" href="assets/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{ "/assets/style.css" | absolute_url }}" type="text/css" media="screen">
 
 	<title>{{ site.name }}</title>
 <meta name="robots" content="noindex,follow">
-<style type="text/css">			
-    body.custom-background {
-	    -webkit-background-size: ;
-		-moz-background-size: ;
-		-o-background-size: ;
-		background-size: ;
-	}
-	.site-title { color: ; }
-	.site-description { color: ; }
-</style>
 <!--<link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
-<script src="assets/html5.js"></script>		
+<script src="{{ "/assets/html5.js" | absolute_url }}"></script>		
 
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 <style type="text/css" id="custom-background-css">
     body.custom-background { 
-        background-image: url("assets/background.png"); 
+        background-image: url("{{ "/assets/background.png" | absolute_url }}"); 
         background-position: left top; 
         background-size: auto; 
         background-repeat: repeat; 
