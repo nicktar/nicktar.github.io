@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sidenote: HashMaps aren't thread-safe
+title: 'Sidenote: HashMaps aren''t thread-safe'
 tags:
 - common pitfall
 - java
