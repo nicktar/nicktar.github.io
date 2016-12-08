@@ -77,11 +77,11 @@ The hashCode-function of your object returns 31 (a very plain object using a ver
 {% highlight java linenos %} 
 int h = 31;
 System.out.println(h + " - " + Integer.toBinaryString(h)); // 31 - 11111
-h += ~(h &lt;&lt; 9);
+h += ~(h << 9);
 System.out.println(h + " - " + Integer.toBinaryString(h)); // -15842 - 11111111111111111100001000011110
-h ^=  (h &gt;&gt;&gt; 14);
+h ^=  (h >>> 14);
 System.out.println(h + " - " + Integer.toBinaryString(h)); // -246303 - 11111111111111000011110111100001
-h ^=  (h &gt;&gt;&gt; 10);
+h ^=  (h >>> 10);
 System.out.println(h + " - " + Integer.toBinaryString(h)); // -3947794 - 11111111110000111100001011101110
 {% endhighlight %} 
 
