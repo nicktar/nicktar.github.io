@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: A slight case of over-engineering
 tags:
 - apache wicket

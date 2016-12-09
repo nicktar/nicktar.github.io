@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Scaffolding with Wicket
 tags:
 - apache

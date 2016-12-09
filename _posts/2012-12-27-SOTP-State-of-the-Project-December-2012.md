@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SOTP (State of the Project) - December 2012
 tags:
 - scaffolding

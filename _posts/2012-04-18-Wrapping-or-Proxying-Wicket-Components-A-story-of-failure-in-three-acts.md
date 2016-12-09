@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Wrapping or Proxying Wicket Components - A story of failure in three acts '
 tags:
 - AOP

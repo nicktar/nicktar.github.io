@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: How to change css attributes and disable form elements on the fly
 tags:
 - apache

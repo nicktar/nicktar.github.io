@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Automagic optimization in Java - Part I (Preface)
 tags:
 - java

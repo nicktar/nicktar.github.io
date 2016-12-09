@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Create Instances of Annotations (for UnitTests)
 tags:
 - annotation

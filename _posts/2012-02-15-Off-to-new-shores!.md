@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Off to new shores!
 tags:
 - blog

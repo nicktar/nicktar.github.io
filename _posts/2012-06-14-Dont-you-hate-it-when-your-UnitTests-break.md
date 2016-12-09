@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Don't you hate it when your UnitTests break?
 tags:
 - best practice

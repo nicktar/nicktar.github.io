@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The Years of Experience Myth @Coding Horror
 tags:
 - developers

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Nasty HashMap...
 tags:
 - Java

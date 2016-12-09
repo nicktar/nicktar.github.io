@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Sending an email programmatically via an password protected SMTP-server
 tags:
 - dependency injection

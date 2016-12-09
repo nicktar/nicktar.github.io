@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: For a first glimpse to Data Deduplication
 tags:
 - blog

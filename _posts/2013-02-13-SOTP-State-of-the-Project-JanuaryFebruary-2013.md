@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SOTP (State of the Project) - January/February 2013
 tags:
 - apache wicket

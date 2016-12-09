@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Access PageParameter objects from your Panel in a testable way
 tags:
 - apache wicket

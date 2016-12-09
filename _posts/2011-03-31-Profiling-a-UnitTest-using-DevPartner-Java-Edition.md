@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Profiling a UnitTest using DevPartner Java Edition
 tags:
 - dependency injection

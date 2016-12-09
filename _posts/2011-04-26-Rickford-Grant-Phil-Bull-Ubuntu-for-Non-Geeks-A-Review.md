@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Rickford Grant & Phil Bull  –  Ubuntu for Non-Geeks - A Review
 categories:
 - book

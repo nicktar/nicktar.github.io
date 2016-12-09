@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Testing an AjaxCheckBox in WicketTester
 tags:
 - apache

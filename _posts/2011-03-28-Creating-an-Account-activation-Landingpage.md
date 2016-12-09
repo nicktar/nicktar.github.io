@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Creating an Account activation Landingpage
 tags:
 - apache wicket

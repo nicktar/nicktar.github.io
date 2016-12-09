@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: JNDI with Eclipse, Jetty, Hibernate (and Wicket)
 tags:
 - apache

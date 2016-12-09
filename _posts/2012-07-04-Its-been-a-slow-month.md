@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: It's been a slow month
 tags:
 - apache wicket

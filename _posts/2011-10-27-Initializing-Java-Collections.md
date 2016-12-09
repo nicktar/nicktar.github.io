@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Initializing Java Collections
 tags:
 - Java

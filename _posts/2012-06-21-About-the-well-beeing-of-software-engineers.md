@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: About the well-beeing of software-engineers
 tags:
 - developers

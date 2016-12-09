@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: On personal data, passwords and their storage
 tags:
 - attack

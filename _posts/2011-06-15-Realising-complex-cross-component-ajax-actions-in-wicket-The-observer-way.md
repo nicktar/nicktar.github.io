@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Realising complex cross-component ajax actions in wicket - The observer way
 tags:
 - ajax

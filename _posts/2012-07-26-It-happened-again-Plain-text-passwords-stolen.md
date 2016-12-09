@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: It happened again - Plain-text passwords stolen
 tags:
 - fail

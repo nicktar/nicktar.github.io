@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Sidenote: HashMaps aren''t thread-safe'
 tags:
 - common pitfall

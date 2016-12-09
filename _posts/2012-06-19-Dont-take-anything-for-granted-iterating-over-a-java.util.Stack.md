@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Don't take anything for granted - iterating over a java.util.Stack
 tags:
 - common pitfall

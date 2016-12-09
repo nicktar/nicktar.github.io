@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: SOTP (State of the Project) - November 2012
 tags:
 - software development

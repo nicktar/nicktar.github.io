@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 'Mmm, what''s that smell: Coffee or sweat? How to avoid a crap IT job'
 tags:
 - found and linked
