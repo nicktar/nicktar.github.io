@@ -24,7 +24,7 @@ These were:
 
 The first part was kind of easy...
 
-<p>First I wrote my landing-page with a PageParameter-accepting constructor</p>
+First I wrote my landing-page with a PageParameter-accepting constructor
 
 {% highlight java linenos %} 
 package de.gwassist.wicket
