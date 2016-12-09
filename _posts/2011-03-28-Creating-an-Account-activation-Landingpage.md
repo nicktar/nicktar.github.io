@@ -26,7 +26,7 @@ The first part was kind of easy...
 
 First I wrote my landing-page with a PageParameter-accepting constructor
 
-{% highlight java linenos %} 
+{% highlight java linenos %}
 package de.gwassist.wicket
  
 public class GwaApplication extends WicketApplication {
@@ -39,7 +39,7 @@ public class GwaApplication extends WicketApplication {
 
 and extended my application's init() method to
 
-{% highlight java linenos %} 
+{% highlight java linenos %}
 package de.gwassist.wicket
 
 public class GwaApplication extends WicketApplication {
@@ -54,22 +54,24 @@ Since I mounted the whole package, this will take care of my second requirement 
 
 This leaves me with a decent looking link somewhere along the lines of
 
-{% highlight html linenos %} 
-landing/AccountActivationPage/accountId/4512542/key/OGygQqsD8eN02ADooN130VSpsOx1VNnFwmo
+{% highlight html linenos %}
+landing/AccountActivationPage/accountId/4512542/key/OGygQqsD8eN02ADooN13
 {% endhighlight %} 
 
 which is decent looking but, since it's a relative link, not suitable for email. My first idea, to add the server-part of the uri by concatenating a configurable String in front of the link didn't appeal to me since I've currently got 2 environments (development and testing) with a 3rd one (production) coming up. I'm simply to damn lazy to keep track of any changes to these environments and keep the config up to date. That's where this nice sniplet comes handy:
 
-{% highlight java linenos %} 
-String link = RequestUtils.toAbsolutePath(urlFor(AccountActivationPage.class, params).toString());
+{% highlight java linenos %}
+String link = RequestUtils
+                .toAbsolutePath(urlFor(AccountActivationPage.class, params)
+                    .toString());
 {% endhighlight %} 
 
 Unfortunately urlFor is a function of Component so I face the choice to generate and inject the link from outside of my mailer-util-class or to create a dependency to Component. The later one looks very much like a BadIdea(TM) so the link get's created from within the form that triggers the email in first place. This still doesn't look good so maybe I'll come up with a better solution.
 
 But at the end of the day, I get a link to
 
-{% highlight html linenos %} 
-http://localhost/landing/AccountActivationPage/accountId/4512542/key/OGygQqsD8eNADooN130VSpsOx1VNnFwmo
+{% highlight html linenos %}
+http://localhost/landing/AccountActivationPage/accountId/4512542/key/OGygQqsD8eNADooN13
 {% endhighlight %} 
 
 for my local dev environment.

@@ -12,4 +12,7 @@ decription: "Ideas, Thoughts, Notes to self and mixed Ramblings and Rants"
 
 gems: [jekyll-paginate]
 
+kramdown:
+    input: GFM
+
  
