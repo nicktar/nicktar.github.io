@@ -13,7 +13,6 @@
 <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
 <script src="{{ "/assets/html5.js" | absolute_url }}"></script>		
 
-<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 <style type="text/css" id="custom-background-css">
     body.custom-background { 
         background-image: url("{{ "/assets/background.png" | absolute_url }}"); 
@@ -31,7 +30,7 @@
 <header id="masthead" class="site-header" role="banner">
 
 	<div id="title">
-	  <a class="home-link" href="https://wp-themes.com/" title="Theme Preview" rel="home">
+	  <a class="home-link" href="/" rel="home">
 
 	   
 	    <h1 class="site-title">{{ site.name }}</h1>
@@ -41,6 +40,7 @@
 	</div>
 
 </header>
+<section id="content" role="main">
 
 {{ content }}
    
@@ -49,53 +49,29 @@
 <!--FOLLOW-->
     <div class="follow">
         <a href="http://click-to-follow.me/" target="_blank" rel="nofollow">
-            <img src="Theme%20Preview%20%E2%80%93%20Previewing%20Another%20WordPress%20Blog-Dateien/follow.png" alt="RSS">
+            <img src="/assets/follow.png" alt="RSS">
         </a>
     </div>
 <!--END-FOLLOW-->
 
 <!--YELLOW STICKER-->
 <nav class="yellow-sticker-middle">
-    <div class="menu"><ul>
-<li class="page_item page-item-2"><a href="https://wp-themes.com/?page_id=2">About</a></li>
-<li class="page_item page-item-46 page_item_has_children"><a href="https://wp-themes.com/?page_id=46">Parent Page</a>
-<ul class="children">
-	<li class="page_item page-item-49"><a href="https://wp-themes.com/?page_id=49">Sub-page</a></li>
+    <div class="menu">
+<ul>
+    <li class="page_item"><a href="/" >Home</a></li>
+    <li class="page_item"><a href="/about" >About</a></li>
+    <!-- li class="page_item page-item-46 page_item_has_children"><a href="">Parent Page</a>
+        <ul class="children">
+	    <li class="page_item page-item-49"><a href="">Sub-page</a></li>
+    </ul> 
+    </li>-->
 </ul>
-</li>
-</ul></div>
+    </div>
 </nav>
 <div class="yellow-sticker-bottom"></div>
 <!--END-YELLOW STICKER-->
-
-<aside id="search-3" class="widget widget_search">
-<div id="search">
-<form role="search" method="get" class="search-form" action="https://wp-themes.com">
-	<label>
-		<span class="screen-reader-text">Search for:</span>
-		<input class="search-field" placeholder="Write your search and hit Enter" name="s" title="Search" type="search">
-	</label>
-	<input class="search-submit" value="Search" type="submit">
-</form>
-</div>
-</aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
-					<li>
-				<a href="https://wp-themes.com/?p=19">Worth A Thousand Words</a>
-						</li>
-					<li>
-				<a href="https://wp-themes.com/?p=36">Elements</a>
-						</li>
-					<li>
-				<a href="https://wp-themes.com/?p=14">More Tags</a>
-						</li>
-					<li>
-				<a href="https://wp-themes.com/?p=8">HTML</a>
-						</li>
-					<li>
-				<a href="https://wp-themes.com/?p=6">Links</a>
-						</li>
-				</ul>
-		</aside>		<aside id="recent-comments-3" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="http://josephscott.org/" rel="external nofollow" class="url">Joseph Scott</a></span> on <a href="https://wp-themes.com/?p=1#comment-509">Hello world!</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://joseph.randomnetworks.com/" rel="external nofollow" class="url">Joseph Scott</a></span> on <a href="https://wp-themes.com/?p=8#comment-2">HTML</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://wordpress.org/" rel="external nofollow" class="url">Mr WordPress</a></span> on <a href="https://wp-themes.com/?p=1#comment-1">Hello world!</a></li></ul></aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+<aside id="archives-3" class="widget widget_archive">
+<h3 class="widget-title">Archives</h3>		<ul>
 			<li><a href="https://wp-themes.com/?m=200810">October 2008</a></li>
 	<li><a href="https://wp-themes.com/?m=200809">September 2008</a></li>
 	<li><a href="https://wp-themes.com/?m=200806">June 2008</a></li>
@@ -113,13 +89,6 @@
 </li>
 		</ul>
 </aside>
-<!--ABOUT (WIDGET)-->
-    <div class="about-widget">
-        <p>
-                    </p>
-    </div>
-<!--END-ABOUT (WIDGET)-->
-
 
 <!--LINKS (WIDGET)-->
     <div class="links-widget">
@@ -201,10 +170,7 @@
 	  </div>
 
   <div class="footer">
-	<script type="text/javascript" src="Theme%20Preview%20%E2%80%93%20Previewing%20Another%20WordPress%20Blog-Dateien/smoothscroll.js"></script>
-<script type="text/javascript" src="Theme%20Preview%20%E2%80%93%20Previewing%20Another%20WordPress%20Blog-Dateien/wp-embed.js"></script>
-Theme "<a title="Theme page" target="_blank" href="http://mycyberuniverse.com/anarcho-notepad.html">Anarcho Notepad</a>" by <a title="Theme author" target="_blank" href="http://www.arthurgareginyan.com/">Arthur Gareginyan</a>.<br><a id="back-top" href="#top" style="display: none;"><i class="fa fa-arrow-up fa-lg"></i></a>    <br>
-  </div>
+	<script type="text/javascript" src="/assets/smoothscroll.js"></script>
 
 </footer>
 
