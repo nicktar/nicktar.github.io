@@ -14,14 +14,14 @@ html {
 -------------------------------------------------------------- */
 a:link {
 	text-decoration: none;
-	color: black; }
+	color: #3B59E9;}
 a:visited {
 	text-decoration: none;
-	color: black; }
+	color: #3B59E9;}
 a:hover,
 a:active {
-	text-decoration: underline;
-	color: black; }
+	text-decoration: none;
+	color: #3B59E9;}
 
 /* Align
 -------------------------------------------------------------- */
@@ -36,32 +36,13 @@ div.aligncenter {
 .alignright {
 	float: right; }
 
-.wp-caption {
-	border: 1px solid #ddd;
-	text-align: center;
-	background-color: #f3f3f3;
-	padding-top: 4px;
-	margin: 10px;
-	   -moz-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px; }
-.wp-caption img {
-	margin: 0;
-	padding: 0;
-	border: 0 none; }
-.wp-caption p.wp-caption-text {
-	font-size: 11px;
-	line-height: 17px;
-	padding: 0 4px 5px;
-	margin: 0; }
-
 /* Background
 -------------------------------------------------------------- */
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif; }
+	font-family: "Patrick Hand", Arial, cursive; 
+	color: #3B59E9;}
 .site-header {
 	width: 960px;
 	margin: 0 auto;
@@ -75,8 +56,12 @@ body {
 	height: 70%;
 	margin-left: 4%;
 	overflow: hidden;
-	word-wrap: break-word; }
-#title a { color: #e5e5e5; }
+	word-wrap: break-word;
+	}
+#title a { color: #eeeeee;
+	text-decoration: none;
+	text-shadow: 0 0 5px #636363;}
+
 #title a:hover { text-decoration: none; }
 .logo { position: absolute; }
 .site-title {
@@ -87,14 +72,14 @@ body {
 	position: relative;
 	padding: 58px 0 10px; }
 .site-description {
-	font-size: 120%;
-	color: #9b9b9b;
+	font-size: 140%;
+	color: #636363;
 	text-align: center;
 	position: relative;
-	margin: 0; }
+	margin: 0; 
+	text-shadow: 0 0 5px #eeeeee;}
 .site-description .home-link a {
-	text-decoration: none;
-	text-shadow: 0 4px 0 rgba(0, 0, 0, 0.6); }
+	text-decoration: none; }
 .site-header .home-link a:hover {
 	text-decoration: none;
 	border-bottom: 1px solid #e7d8cf; }
@@ -184,13 +169,12 @@ td.gutter.gl {
 	font-size: 150%;
 	line-height: 110%;
 	font-weight: normal;
-	font-family: Forum, Times New Roman, Times, Georgia, serif;
+	font-family: "Patrick Hand", Arial, cursive;
 	margin: 0;
 	padding: 0 0 10px;
 	overflow: hidden;
 	background: url("/assets/line.png") repeat-x bottom; }
 #content .col01 h1 a {
-	color: #000;
 	text-decoration: none; }
 #content .col01 h1 a:hover { color: gray; }
 #content .col01 h2,
@@ -249,7 +233,7 @@ td.gutter.gl {
 	font-weight: bold;
 	line-height: 70%;
 	margin: -5px 10px 10px -90px;
-	color: #000;
+	color: black;
 	background-color: #A00B0B;
 	border-radius: 8px 1px 1px;
 	text-shadow: 0px 1px 2px #C53D3D;
@@ -298,7 +282,6 @@ td.gutter.gl {
 	float: right;
 	margin: 12px 0 12px 12px; }
 #content .col01 .meta a {
-	color: #000;
 	text-decoration: none; }
 #content .col01 .meta a:hover { text-decoration: underline; }
 
@@ -343,7 +326,6 @@ td.gutter.gl {
 	margin: 0; }
 #sidebar .yellow-sticker-middle ul li .listMeta { font-size: 10px; }
 #sidebar .yellow-sticker-middle ul li a {
-	color: #21565E;
 	border-top: 1px solid #FFE5BE;
 	display: block;
 	width: 170px;
@@ -355,12 +337,8 @@ td.gutter.gl {
 	-o-transition: margin .3s;
 	transition: margin .3s; }
 #sidebar .yellow-sticker-middle ul li a:hover {
-	text-decoration: none;
-	margin-left: 20px;
-	color: #000; }
-#sidebar .yellow-sticker-middle ul .sub-menu {
-	padding-left: 10px;
-	overflow: hidden; }
+	text-decoration: bold;
+	margin-left: 20px;}
 #sidebar .yellow-sticker-bottom {
 	width: 188px;
 	height: 62px;
@@ -413,7 +391,7 @@ td.gutter.gl {
 #sidebar .about-widget {
 	background: url(/assets/about-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px;
-	font-family: Forum, Times New Roman, Times, Georgia, serif;
+	font-family: "Patrick Hand", Arial, cursive;
 	font-size: 100%;
 	line-height: 110%; }
 
@@ -431,14 +409,12 @@ td.gutter.gl {
 	list-style: none;
 	background: url(/assets/line.png) no-repeat bottom; }
 #sidebar .links-widget ul li a {
-	color: #21565E;
 	margin: 0 auto;
 	display: block;
 	width: 186px;
 	padding: 3px 0; }
 #sidebar .links-widget ul li a:hover {
-	text-decoration: none;
-	color: #000; }
+	text-decoration: bold;}
 
 /* Other Widgets */
 #sidebar .widget {
@@ -565,49 +541,6 @@ img.alignleft {
 	background-color: whitesmoke;
 	background-clip: padding-box;
 	border-radius: 10px; }
-#commentform {
-	padding: 0;
-	margin: 0; }
-#commentform .comment-field {
-	border: 1px solid #939393;
-	width: 290px;
-	margin: 0;
-	padding: 3px;
-	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-	font-size: 75%;
-	background: #fff;
-	float: left; }
-#commentform .comment-box {
-	border: 1px solid #939393;
-	width: 70%;
-	margin: 0 0 10px;
-	padding: 3px;
-	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-	background: #fff;
-	border-radius: 10px;
-	opacity: 0.6;
-	position: relative; }
-#commentform .btnComment {
-	margin: 0;
-	padding: 2px;
-	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-	float: left;
-	clear: left; }
-#commentform .comment-notes {
-	display: none; }
-#commentform label {
-	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif; }
-#commentform p {
-	margin-bottom: 0; }
-#commentform code {
-	display: inline;
-	border: none;
-	background: none;
-	font-size: 90%;
-	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif; }
-#commentform .form-allowed-tags {
-	margin-top: 0;
-	font-size: 90%; }
 #author,
 #email,
 #url,
@@ -764,34 +697,6 @@ p.comments-title {
 	float: right;
 	text-align: right; }
 /* End-Post Navigation */
-
-/* Up button
--------------------------------------------------------------- */
-#back-top {
-	position: fixed;
-	bottom: 10px;
-	right: 15px;
-	opacity: .8;
-	padding: 11px 13px;
-	cursor: pointer;
-	border-radius: 2px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-o-border-radius: 2px;
-	z-index: 10000;
-	height: 30px;
-	width: 30px;
-	line-height: 30px;
-	text-align: center;
-	font-family: Fontawesome;
-	background-color: #3F3B3B;
-	transition: background-color 0.1s linear;
-	-moz-transition: background-color 0.1s linear;
-	-webkit-transition: background-color 0.1s linear;
-	-o-transition: background-color 0.1s linear; }
-#back-top:hover { opacity: 1; }
-/* End-Up button */
-/************************** END-Navigation **************************/
 
 /* Sitemap Page
 -------------------------------------------------------------- */

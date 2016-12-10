@@ -3,15 +3,11 @@ layout: post
 comments: true
 title: 'Wrapping or Proxying Wicket Components - A story of failure in three acts '
 tags:
-- AOP
-- apache
 - Aspect oriented programming
 - delegate pattern
 - dependency injection
 - google guice
-- guice
 - javassist
-- pattern
 - proxy pattern
 - software development
 - wicket-crudr

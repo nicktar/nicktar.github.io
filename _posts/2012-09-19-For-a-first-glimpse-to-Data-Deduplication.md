@@ -6,7 +6,6 @@ tags:
 - blog
 - data deduplication
 - found and linked
-- rabin
 - rabin algorithm
 - review
 - virtual bookshelf

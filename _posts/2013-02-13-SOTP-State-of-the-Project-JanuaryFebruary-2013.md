@@ -12,6 +12,7 @@ comments: true
 ---
 Sorry for posting this quite late or missing the January update (depending on the point of view). The new year started with a high workload at the office so that there weren't many days were I wanted to continue working at home. So this is pretty short.
 
+
 The `@Lister` Annotation is gone and the `@Editor` Annotation is about to follow. This reduced the code base only a little but produced Prototypes with a higher readability. Prototypes are the classes of entities that CRUDr displays. These classes have to be annotated using the `@Prototype` Annotation.
 
 

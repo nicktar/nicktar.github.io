@@ -18,7 +18,10 @@ tags:
 date: 2012-04-27 11:47:00.000000000 +02:00
 comments: true
 ---
-Usually you don't have to test Annotations. But you might want to test the effects of your Annotations and (given an Annotation with parameters) this can get quite awkward if you try to write classes or methods for every variant to annotate and test. Given an Annotation like this one:
+Usually you don't have to test Annotations. But you might want to test the effects of your Annotations and (given an Annotation with parameters) this can get quite awkward if you try to write classes or methods for every variant to annotate and test.
+
+
+Given an Annotation like this one:
 {% highlight java linenos %}
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)

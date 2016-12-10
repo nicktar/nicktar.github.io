@@ -3,14 +3,11 @@ layout: post
 comments: true
 title: Nasty HashMap...
 tags:
-- Java
 - common pitfall
 - equals
 - hashcode
-- hashmap
 - java
 - map
-- pitfall
 - puzzler
 - software development
 date: 2011-09-27 10:17:47.000000000 +02:00

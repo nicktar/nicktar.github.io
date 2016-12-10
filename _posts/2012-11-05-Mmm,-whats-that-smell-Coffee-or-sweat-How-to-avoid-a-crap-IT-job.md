@@ -12,4 +12,4 @@ This is the first part of a series I'm waiting to read as soon as it gets publis
 
 On to the good stuff... here's the [link](http://www.theregister.co.uk/2012/11/05/how_to_do_it_interview/).
 
-And the second part is published too: [How to spot a terrible tech boss within SECONDS}(http://www.theregister.co.uk/2012/11/12/spotting_a_psycho_boss/)
+And the second part is published too: [How to spot a terrible tech boss within SECONDS](http://www.theregister.co.uk/2012/11/12/spotting_a_psycho_boss/)

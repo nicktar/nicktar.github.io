@@ -19,7 +19,8 @@ Don't ever think just because a certain way of doing things seems reasonable or 
 > In [computer science](http://en.wikipedia.org/wiki/Computer_science), a *stack* is a last in, first out [(LIFO)](http://en.wikipedia.org/wiki/LIFO_%28computing%29) 
 > [abstract data type](http://en.wikipedia.org/wiki/Abstract_data_type) and linear [data structure](http://en.wikipedia.org/wiki/Data_structure). 
 
-<p align="right">from wikipedia </p> 
+<p align="right">from wikipedia </p>
+
 
 The key characteristic here is "last in, first out". So, when I do something like this:
 {% highlight java linenos %}Stack<String> myStack = new Stack<>();

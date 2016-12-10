@@ -3,14 +3,13 @@ layout: post
 comments: true
 title: Initializing Java Collections
 tags:
-- Java
-- collection
 - java
 - software development
 - static
 date: 2011-10-27 15:12:35.000000000 +02:00
 ---
 Most of us know that an array in Java can be initialized by
+
 {% highlight java linenos %}
 String[] fruit = new String[] {"apple", "cherry"};
 {% endhighlight %}

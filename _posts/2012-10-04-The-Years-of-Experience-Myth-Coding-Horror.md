@@ -5,7 +5,7 @@ title: The Years of Experience Myth @Coding Horror
 tags:
 - developers
 - found and linked
-- software enigeers
+- software engineers
 date: 2012-10-04 13:55:52.000000000 +02:00
 comments: true
 ---

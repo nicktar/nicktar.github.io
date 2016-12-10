@@ -4,9 +4,7 @@ comments: true
 title: Realising complex cross-component ajax actions in wicket - The observer way
 tags:
 - ajax
-- apache
 - apache wicket
-- observer
 - observer pattern
 - software development
 - wicket 1.4

@@ -1,12 +1,11 @@
 highlighter: rouge
 
-excerpt_separator: "\n\n"
+excerpt_separator: "\n\n\n"
 
 paginate: 7
-#paginate_path: "/blog/page:num/"
 
 name: Developer Notebook
-decription: "Ideas, Thoughts, Notes to self and mixed Ramblings and Rants"
+description: "Ideas, Thoughts, Notes to self and mixed Ramblings and Rants"
 
 #permalink: pretty
 

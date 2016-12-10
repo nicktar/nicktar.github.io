@@ -3,17 +3,16 @@ layout: post
 comments: true
 title: Testing an AjaxCheckBox in WicketTester
 tags:
-- apache
 - apache wicket
 - formtester
 - java
 - software development
 - unit test
-- unittest
 - wickettester
 date: 2011-04-03 15:49:10.000000000 +02:00
 ---
 Setting up a unit test for a form containing an AjaxCheckBox seems pretty straightforward and simple. So simple that it's easy to forget two essential steps... 
+
 
 {% highlight java linenos %} 
 @Test
