@@ -9,6 +9,9 @@ tags:
 - workplace
 date: 2012-06-21 10:00:35.000000000 +02:00
 comments: true
+categories:
+- found & linked
+- workplace
 ---
 It's a real great write-up about the mindset of software-engineers and on how to keep them happy.
 

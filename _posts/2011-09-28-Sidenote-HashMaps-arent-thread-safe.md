@@ -4,12 +4,14 @@ comments: true
 title: 'Sidenote: HashMaps aren''t thread-safe'
 tags:
 - common pitfall
-- java
 - map
 - multithreaded
 - pitfall
-- software development
 - thread-safe
+categories:
+- software development
+- java
+- pitfalls
 date: 2011-09-28 14:34:39.000000000 +02:00
 ---
 It's stated in the docs but it seems like everyone has to run into this at least once....

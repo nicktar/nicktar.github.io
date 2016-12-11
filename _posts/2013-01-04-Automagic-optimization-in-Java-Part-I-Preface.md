@@ -5,6 +5,10 @@ title: Automagic optimization in Java - Part I (Preface)
 tags:
 - java
 - performance
+categories:
+- software development
+- java
+- performance
 date: 2013-01-04 09:27:30.000000000 +01:00
 comments: true
 ---

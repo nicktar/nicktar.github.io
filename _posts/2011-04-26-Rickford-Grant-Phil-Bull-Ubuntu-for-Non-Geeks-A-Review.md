@@ -10,6 +10,10 @@ tags:
 - review
 - ubuntu
 - virtual bookshelf
+categories:
+- books
+- awful
+
 date: 2011-04-26 12:46:41.000000000 +02:00
 ---
 <img width="112" height="146" align="right" title="Frontcover" style="margin: 0px 20px 20px;" src="/assets/Grant_Bull_UfNG.jpg" />Considering myself a Linux-user rather than a power-user or even a Linux-Geek, I thought, I could pick up some tricks from this book. But to make it short: I was disappointed. At first I thought that maybe I just wasn't part of the target audience and that the book was a little bit mislabelled with "Ubuntu for the computer illiterate" being a more appropriate title. The authors describe at length all the useless stuff on how to make your system as unusable as possible with changed colors, fonts, wallpapers, custom icons for each and every folder or application. While being boring or at it's best repetitive. "Open the Ubuntu Software Center, Search for this, provide your password when asked, you find your new application here." - "Open the Ubuntu Software Center, Search for that, provide your password when asked, you find your new application here." - "Open the Ubuntu Software Center, Search for something else, provide your password when asked, you find your new application here."

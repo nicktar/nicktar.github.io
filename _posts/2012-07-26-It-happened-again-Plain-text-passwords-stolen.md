@@ -8,6 +8,9 @@ tags:
 - rant
 - salt
 - security
+categories:
+- software development
+- security
 date: 2012-07-26 09:12:18.000000000 +02:00
 comments: true
 ---

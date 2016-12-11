@@ -7,12 +7,14 @@ tags:
 - c3po
 - hibernate
 - j2ee
-- java
 - jetty
 - jetty-env.xml
 - jndi
 - jpa
+categories:
 - software development
+- java
+- j2ee
 date: 2011-12-15 14:21:24.000000000 +01:00
 ---
 In [a previous post (Sending an email programmatically via an password protected SMTP-server)] [1], I pondered about where to put the config-files for my mail server and database since all of the environments (my dev box, the test server and the production machine) use different accounts with different passwords (and partially different settings). I decided that the best place would be the webserver users home directory, which solves the problem of having different configurations on different systems but introduces a new risk of a new deploy-step needed to update changed configurations (namely added database entities in hibernate.cfg.xml) which I simply forgot more than once. Since it only happened on the test server which didn't start due to missing entities this was easy to spot, easy to fix and not a problem as such. But chances are, that this might happen with more important things that don't fail at once so there's got to be a better way, which comes by the name of JNDI (which translates to *Java Naming and Directory Interface* and not to *Just Not Directly Intuitive* which might be fitting as well).

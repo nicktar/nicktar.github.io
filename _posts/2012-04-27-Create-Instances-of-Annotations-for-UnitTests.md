@@ -6,15 +6,16 @@ tags:
 - annotation
 - best practice
 - delegate pattern
-- j2ee
 - java
-- java enterprise
 - jmock
 - mocking 
 - pattern
 - software development
 - unit test
-- unittest
+categories:
+- software development
+- java
+- tips & tricks
 date: 2012-04-27 11:47:00.000000000 +02:00
 comments: true
 ---

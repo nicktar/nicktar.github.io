@@ -6,11 +6,14 @@ tags:
 - best practice
 - dependency injection
 - integration test
-- java
 - jmock
 - mocking
 - software development
 - unit test
+categories:
+- software development
+- best practice
+- testing
 date: 2012-06-14 19:25:00.000000000 +02:00
 comments: true
 ---

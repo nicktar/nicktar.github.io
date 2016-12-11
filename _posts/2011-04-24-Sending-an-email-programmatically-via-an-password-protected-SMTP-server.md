@@ -5,11 +5,13 @@ title: Sending an email programmatically via an password protected SMTP-server
 tags:
 - dependency injection
 - email
-- java
 - mail api
 - smtp
-- software development
 - unittest
+categories:
+- software development
+- java
+- wicket
 date: 2011-04-24 21:26:26.000000000 +02:00
 ---
 Most tutorials show how to either load the mail-properties from a file or setting them programmatically. These properties include an user name and a password to an SMTP-Server but connecting to said server fails if the server requests an user name and a password to connect. So setting these properties isn't sufficient. Digging deeper reveals a solution that isn't part of the most tutorials or even mentioned in most of the books like [this one](http://openbook.galileodesign.de/javainsel5/javainsel16_010.htm) (German), albeit it's not the current edition but the one with the highest Page-rank in Google and the description was fixed in a [later edition](http://openbook.galileodesign.de/javainsel7/javainsel_17_012.htm) and for some reason removed in the [current](http://openbook.galileodesign.de/javainsel).

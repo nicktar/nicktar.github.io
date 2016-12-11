@@ -5,7 +5,12 @@ title: SOTP (State of the Project) - January/February 2013
 tags:
 - apache wicket
 - sotp
+- status
 - wicket
+- wicket-crudr
+categories:
+- software development
+- java
 - wicket-crudr
 date: 2013-02-13 11:13:55.000000000 +01:00
 comments: true

@@ -6,10 +6,13 @@ tags:
 - common pitfall
 - equals
 - hashcode
-- java
 - map
 - puzzler
 - software development
+categories:
+- software development
+- java
+- pitfalls
 date: 2011-09-27 10:17:47.000000000 +02:00
 ---
 ... or why hashCode() and equals() should be calculated on immutable parts of your keys only and what happens if you don't.

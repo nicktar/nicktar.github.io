@@ -6,10 +6,13 @@ tags:
 - dependency injection
 - devpartner
 - documentation
-- java
 - profiling
 - rant
+- performance
+categories:
 - software development
+- java
+- performance
 date: 2011-03-31 13:47:50.000000000 +02:00
 ---
 I'm stuck with an ancient version of DevPartner at work. For those of you luckily not knowing, what DevPartner is - It's a Profiler and it's the single worst documented software I was ever forced to use.

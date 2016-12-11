@@ -11,6 +11,10 @@ tags:
 - proxy pattern
 - software development
 - wicket-crudr
+categories:
+- software development
+- java
+- wicket
 date: 2012-04-18 13:45:43.000000000 +02:00
 ---
 When working on Wicket CRUDr, I encountered a problem which could be used easily by using a simple wrapper or proxy for existing components. These components are to be created by factory methods and need some additional functionality (like specific implementations of the onModelChanged-methods). Since I wanted to dumb down these factories and didn't want to have everyone implementing new factories to have to know about these, I thought, it would be nice to add the functionality afterwards.

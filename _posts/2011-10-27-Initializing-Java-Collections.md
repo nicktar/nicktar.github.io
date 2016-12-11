@@ -3,9 +3,12 @@ layout: post
 comments: true
 title: Initializing Java Collections
 tags:
-- java
 - software development
 - static
+categories:
+- software development
+- java
+- tips & tricks
 date: 2011-10-27 15:12:35.000000000 +02:00
 ---
 Most of us know that an array in Java can be initialized by

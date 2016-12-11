@@ -4,15 +4,16 @@ comments: true
 title: Don't take anything for granted - iterating over a java.util.Stack
 tags:
 - common pitfall
-- j2ee
 - java
-- java enterprise
-- pitfall
 - puzzler
 - rant
 - software development
 date: 2012-06-19 20:14:00.000000000 +02:00
 comments: true
+categories:
+- software development
+- java
+- pitfalls
 ---
 Don't ever think just because a certain way of doing things seems reasonable or logical to you or anyone else means it's implemented that way.
 

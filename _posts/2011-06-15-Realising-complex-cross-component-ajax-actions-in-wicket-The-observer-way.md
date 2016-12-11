@@ -8,6 +8,10 @@ tags:
 - observer pattern
 - software development
 - wicket 1.4
+categories:
+- software development
+- java
+- wicket
 date: 2011-06-15 11:26:40.000000000 +02:00
 ---
 **Please note**: This article applies to wicket versions prior to 1.5 only. Wicket 1.5 introduces an event bus to handle these types of requirements. The solution described here works but it has some issues that weren't completely resolved when I switched to Wicket 1.5. Most annoying among these is the rather tight coupling from the components to their page, which could be removed by extracting the IReflector-related code from the page and creating an own class for it.

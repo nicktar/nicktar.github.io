@@ -7,6 +7,11 @@ tags:
 - sotp
 - wicket
 - wicket-crudr
+- status
+categories:
+- software development
+- java
+- wicket-crudr
 date: 2012-11-29 09:04:11.000000000 +01:00
 comments: true
 ---

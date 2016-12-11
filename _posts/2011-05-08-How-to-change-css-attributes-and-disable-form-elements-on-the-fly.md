@@ -5,7 +5,10 @@ title: How to change css attributes and disable form elements on the fly
 tags:
 - apache wicket
 - css
+categories:
+- software development
 - java
+- wicket
 date: 2011-05-08 12:03:59.000000000 +02:00
 ---
 Wicket makes it easy to manipulate CSS attributes on the fly. The most obvious solution would be to overwrite the onComponentTag method and add the logic there. It's a very powerful solution as you can virtually do anything to the tag. But writing html fragments directly from my Java code is something that smells like JSPs and I don't like that smell.

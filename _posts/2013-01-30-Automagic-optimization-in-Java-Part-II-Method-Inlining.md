@@ -5,6 +5,10 @@ title: Automagic optimization in Java - Part II (Method Inlining)
 tags:
 - java
 - performance
+categories:
+- software development
+- java
+- performance
 date: 2013-01-30 12:21:00.000000000 +01:00
 comments: true
 ---

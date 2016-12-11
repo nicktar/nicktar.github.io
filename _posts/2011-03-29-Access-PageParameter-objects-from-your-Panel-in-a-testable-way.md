@@ -4,11 +4,13 @@ comments: true
 title: Access PageParameter objects from your Panel in a testable way
 tags:
 - apache wicket
-- wicket
 - dependency injection
-- java
 - software development
 - wickettester
+categories:
+- software development
+- java
+- wicket
 date: 2011-03-29 14:32:31.000000000 +02:00
 ---
 When trying to build stateless pages without the user noticing, like building an application using AjaxFallBackLinks and reusing the fall-back to provide a search-engine-friendly version of your application, you've got to put the state into PageParameters, which can be transported via bookmarkable links.
