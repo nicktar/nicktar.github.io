@@ -14,4 +14,12 @@ gems: [jekyll-paginate]
 kramdown:
     input: GFM
 
+defaults:
+    - 
+      scope: 
+        type: "posts"
+      values:
+        comments: true
+        layout: "post"
+
  
