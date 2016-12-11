@@ -65,4 +65,4 @@
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
 
-code .highlighter-rouge {display: inline; border-style: dotted; border-width: 1px; border-color: #aa0000; border-radius: 2px}
+code.highlighter-rouge {display: inline; border-style: dotted; border-width: 1px; border-color: #aa0000; border-radius: 2px}
