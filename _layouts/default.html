@@ -19,6 +19,8 @@
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
 <script src="{{ "/assets/html5.js" | absolute_url }}"></script>	
+<script src="{{ "/assets/spinner.js" | absolute_url }}"></script>	
+
 <link href="/assets/syntax.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -65,6 +67,9 @@
 </nav>
 <div class="yellow-sticker-bottom"></div>
 <!--END-YELLOW STICKER-->
+<aside id="spinner-container" class="decoration">
+    <canvas style="float:center;" id="spinner" width="90" height="90" ></canvas>
+</aside>
     {% comment %}
 <aside id="archives-3" class="widget widget_archive">
 <h3 class="widget-title">Archives</h3>		
