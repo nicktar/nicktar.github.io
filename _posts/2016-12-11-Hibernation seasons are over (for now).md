@@ -8,6 +8,7 @@ categories:
 - blog
 - announcement
 date: 2016-12-11 16:13:31.000000000 +01:00
+comments: true
 ---
 So after about three years, I remembered that I have a blog out there that I haven't been actually maintaining or contributing to all those years. When faced with the decision of either abandon ship and keep the stuff in a safe way, I opted for a forth variant, keeping the stuff in a safe place while still contributing to it. So the first step was to move everything out of my personal server so that possible future breaches wouldn't spill out to that machine and the projects living there. The second step was to ditch serendipity as a blog software to reduce the number of active components and thus possible points of failure. Running a Java center blog powered by PHP felt strange anyway. In the end that led me to github pages and a blog consisting of static pages provided by [jekyll] [1].
 

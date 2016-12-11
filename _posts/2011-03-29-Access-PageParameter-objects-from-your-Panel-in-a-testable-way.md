@@ -12,6 +12,7 @@ categories:
 - java
 - wicket
 date: 2011-03-29 14:32:31.000000000 +02:00
+comments: true
 ---
 When trying to build stateless pages without the user noticing, like building an application using AjaxFallBackLinks and reusing the fall-back to provide a search-engine-friendly version of your application, you've got to put the state into PageParameters, which can be transported via bookmarkable links.
 

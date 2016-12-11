@@ -1,3 +1,4 @@
+.code { color: black;}
 .code  { background: #ffffff; }
 .code .c { color: #999988; font-style: italic } /* Comment */
 .code .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -64,4 +65,4 @@
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
 
-code {display: inline; border-style: dotted; border-width: 1px; border-color: #aa0000; border-radius: 2px}
+code .highlighter-rouge {display: inline; border-style: dotted; border-width: 1px; border-color: #aa0000; border-radius: 2px}
