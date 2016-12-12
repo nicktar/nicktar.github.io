@@ -10,8 +10,11 @@ tags:
 - landingpage
 - software development
 - stateless
+categories:
+- software development
+- java
+- wicket
 date: 2011-03-28 18:35:38.000000000 +02:00
-comments: true
 ---
 For my current project which is in alpha-test right now, I wanted to verify a user's mail address on sign up, using the usual approach of sending him an email containing a link to a landing page, he has to visit to activate his account. To my surprise I couldn't find an existing implementation of this.
 
