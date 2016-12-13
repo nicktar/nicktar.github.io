@@ -6,9 +6,13 @@ layout: default
       
         <div class="post-inner">
             {{ page.content }}
+            {% include rrssb_markup.html %}
         {% if page.comments %}
         {% include disqus.html %}
         {% endif %}
         </div>
     </div>
 <script id="dsq-count-scr" src="//developer-notebook.disqus.com/count.js" async></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="{{ "/assets/rrssb/js/rrssb.min.js" | absolute_url}}"></script>
