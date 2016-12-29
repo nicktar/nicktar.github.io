@@ -54,9 +54,6 @@ function drawPendulum(canvas, pendulum){
     context.lineWidth = 1;
     context.stroke();
     context.closePath();
-    /*
-    Copyright 2016 by David Hendrix http://blog.get-set-society-net 
-    */
 }
  
 function updatePendulum(pendulum){
@@ -77,6 +74,8 @@ function resetPendulum() {
     var canvas = document.getElementById("spinner");
     var context = canvas.getContext("2d");
     context.clearRect(0, 0, canvas.width, canvas.height);
+    keepRunning.value = true;
+    startPendulum(keepRunning);
 }
 
 function startPendulum(run) {
@@ -105,9 +104,9 @@ var keepRunning = {
     value: true
 };
 
-var stopped = {
-    value: false
-};
+    /*
+    Copyright 2016 by David Hendrix http://blog.get-set-society-net 
+    */
 
 window.onload = function(){
     document.getElementById('spinner').addEventListener('click', function() {
