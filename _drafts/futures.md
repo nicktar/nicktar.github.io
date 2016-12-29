@@ -9,12 +9,10 @@ categories:
 - java
 - language
 title: 'Summarizing: Java Language and Platform Futures: A Sneak Peek by Brian Goetz' 
+date: 2016-12-29 22:17:17.000000000 +02:00
 ---
-During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java features. This is of course highly speculative and Oracle doesn't commit to any of these but it gave an interesting insight into the things that might be coming and how Oracle might address some of the bigger pain points of Java Developers with no promises whatsoever made. 
+[<img src="{{ "/assets/disclaimer_small.png" | absolute_url}}" align="center" width="90%" hspace="30px" />][1] During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java features. This is of course highly speculative and Oracle doesn't commit to any of these but it gave an interesting insight into the things that might be coming and how Oracle might address some of the bigger pain points of Java Developers with no promises whatsoever made. 
 
-
-
-[<img src="{{ "/assets/disclaimer_small.png" | absolute_url}}" float="left" width="50%" />][1]
 
 ## Introduction ##
 
@@ -24,7 +22,7 @@ Brian Goetz talked about possibly upcoming features explicitly without making an
 
 ### Base Principles ###
 
-<img src="{{ "assets/futures_talk.jpg" | absolute_url}}" float="right" width="30%" />
+<img src="{{ "assets/futures_talk.jpg" | absolute_url}}" align="right" width="30%" />
 
 Some 10 years ago, Graham Hamilton outlined a few core principles to guide the future of Java. These are still valid.
 
@@ -100,7 +98,7 @@ and have everything else being provided by the compiler, while being able to ove
 In addition to reducing the amount of code needed to create a class it would allow a way to declaratively mark a class and their objects as domain objects. But in everydays life, this is a relativly small win compared to the reduction in code (and thus opportunities for errors to occur).
 
 ### Improved Switch Statement ###
-Todays switch statement is very limited. I can only handle a  select elite group of classes like enums, Integers, nowadays Strings a a few others. Additionally it can only check for constant equality, which is quite restraining on it's own. And the third major limiting factor is the limit to statements in the case block where expressions might be a nice to have feature. On the other hand, switches can be much faster and way more readable than huge blocks of ifs and alse ifs. Today, many use cases where switches would be handy but can't be used due to these limitations are realised using the Visitor pattern which solves many problems but is ususally neither very fast nor readable and often quite hard to understand and maintain. Many of these cases where we fall back to the visitor pattern could be eliminated with an improvend or extended switch statement.
+Todays switch statement is very limited. I can only handle a  select elite group of classes like enums, Integers, nowadays Strings a a few others. Additionally it can only check for constant equality, which is quite restraining on it's own. And the third major limiting factor is the limit to statements in the case block where expressions might be a nice to have feature. On the other hand, switches can be much faster and way more readable than huge blocks of ifs and alse ifs. Today, many use cases where switches would be handy but can't be used due to these limitations are realised using the Visitor pattern which solves many problems but is usually neither very fast nor readable and often quite hard to understand and maintain. Many of these cases where we fall back to the visitor pattern could be eliminated with an improvend or extended switch statement.
 
 The solution to this that is requested by most is "Type-Switch" since it takes away one single pain point. But even if they ask for, most of these people don't really want a Type-Switch. It's only the first thing that comes to mind. What they really want is a more powerful switch and that might come in form of "Pattern Matching" as it is known from Scala and other functional languages. It would take away the pain from switch, would include everything, we want to do with Type-Switch and would even cover most use cases for Visitor.
 
@@ -230,7 +228,9 @@ Basic calculator done...
 
 ## Watch the whole talk ##
 
-Well, I tried to summarize, but I failed, this got extremely lengthy and doesn't even cover the whole talk, which you could watch on Youtube [<img src="https://img.youtube.com/vi/oGll155-vuQ/0.jpg">](https://www.youtube.com/watch?v=oGll155-vuQ). The remaining parts will be covered in separate articles.
+[<img src="https://img.youtube.com/vi/oGll155-vuQ/0.jpg" width="30%" align="right">](https://www.youtube.com/watch?v=oGll155-vuQ)Well, I tried to summarize, but I failed, this got extremely lengthy and doesn't even cover the whole talk, which you could watch on Youtube . The remaining parts will be covered in separate articles.
+
+<br clear="all" />
 
 ## Credits ##
 
