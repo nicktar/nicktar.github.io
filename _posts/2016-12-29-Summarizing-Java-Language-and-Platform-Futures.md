@@ -11,9 +11,10 @@ categories:
 title: 'Summarizing: Java Language and Platform Futures: A Sneak Peek by Brian Goetz' 
 date: 2016-12-29 22:17:17.000000000 +02:00
 ---
-<img src="{{ "/assets/disclaimer.png" | absolute_url}}" align="center" width="90%" hspace="30px" /> During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java features. This is of course highly speculative and Oracle doesn't commit to any of these but it gave an interesting insight into the things that might be coming and how Oracle might address some of the bigger pain points of Java Developers with no promises whatsoever made. 
+During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java features. This is of course highly speculative and Oracle doesn't commit to any of these but it gave an interesting insight into the things that might be coming and how Oracle might address some of the bigger pain points of Java Developers with no promises whatsoever made. 
 
-
+<img src="{{ "/assets/disclaimer.png" | absolute_url}}" align="center" width="80%" hspace="30px" />
+<br clear="all" />
 ## Introduction ##
 
 Brian Goetz talked about possibly upcoming features explicitly without making any promises or committing on when or even if any of these might happen. I want to walk through the presented ideas one by one.
