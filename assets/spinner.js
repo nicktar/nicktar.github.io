@@ -30,12 +30,12 @@ function initPendulum() {
         });
     var innerPendulum = pendulum[0];
     var outerPendulum = pendulum[1];
-    innerPendulum.outerX = innerPendulum.innerX + (22 * Math.sin(innerPendulum.startingAngle));
-    innerPendulum.outerY = innerPendulum.innerY + (22 * Math.cos(innerPendulum.startingAngle));
+    innerPendulum.outerX = innerPendulum.innerX + (37 * Math.sin(innerPendulum.startingAngle));
+    innerPendulum.outerY = innerPendulum.innerY + (37 * Math.cos(innerPendulum.startingAngle));
     outerPendulum.innerX = innerPendulum.outerX;
     outerPendulum.innerY = innerPendulum.outerY;
-    outerPendulum.outerX = outerPendulum.innerX + (22 * Math.sin(outerPendulum.startingAngle));
-    outerPendulum.outerY = outerPendulum.innerY + (22 * Math.cos(outerPendulum.startingAngle));
+    outerPendulum.outerX = outerPendulum.innerX + (37 * Math.sin(outerPendulum.startingAngle));
+    outerPendulum.outerY = outerPendulum.innerY + (37 * Math.cos(outerPendulum.startingAngle));
     return pendulum;
 }
     
@@ -64,12 +64,12 @@ function updatePendulum(pendulum){
     var outerPendulum = pendulum[1];
     innerPendulum.startingAngle += innerPendulum.speed / 7.0;
     outerPendulum.startingAngle += outerPendulum.speed / 7.0;
-    innerPendulum.outerX = innerPendulum.innerX + (22 * Math.sin(innerPendulum.startingAngle));
-    innerPendulum.outerY = innerPendulum.innerY + (22 * Math.cos(innerPendulum.startingAngle));
+    innerPendulum.outerX = innerPendulum.innerX + (37 * Math.sin(innerPendulum.startingAngle));
+    innerPendulum.outerY = innerPendulum.innerY + (37 * Math.cos(innerPendulum.startingAngle));
     outerPendulum.innerX = innerPendulum.outerX;
     outerPendulum.innerY = innerPendulum.outerY;
-    outerPendulum.outerX = outerPendulum.innerX + (22 * Math.sin(outerPendulum.startingAngle));
-    outerPendulum.outerY = outerPendulum.innerY + (22 * Math.cos(outerPendulum.startingAngle));
+    outerPendulum.outerX = outerPendulum.innerX + (37 * Math.sin(outerPendulum.startingAngle));
+    outerPendulum.outerY = outerPendulum.innerY + (37 * Math.cos(outerPendulum.startingAngle));
 
 }
  
