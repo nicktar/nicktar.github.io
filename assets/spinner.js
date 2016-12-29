@@ -97,7 +97,7 @@ function animate(canvas, pendulum, run) {
         // request new frame
         requestAnimFrame(function(){animate(canvas, pendulum, run);});
     } else {
-        stopped.value = true;
+        resetPendulum();
     }
 }
 
@@ -112,19 +112,6 @@ var stopped = {
 window.onload = function(){
     document.getElementById('spinner').addEventListener('click', function() {
         keepRunning.value = false;
-
-        while (!stopped.value) {
-            // do nothing
-        }
-
-        resetPendulum();
-
-        keepRunning.value = true;
-
-        if(keepRunning.value) {
-          startPendulum(keepRunning)
-        }
-      });
-
-    startPendulum();
+    });
+    startPendulum(keepRunning);
 };  
