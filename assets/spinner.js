@@ -14,18 +14,18 @@ function initPendulum() {
 
     pendulum.push({
         speed: 2 - Math.random() * 4,
-        innerX: 45,
-        innerY: 45,
-        outerX: 45,
-        outerY: 45,
+        innerX: 75,
+        innerY: 75,
+        outerX: 75,
+        outerY: 75,
         startingAngle: Math.PI
         });
     pendulum.push({
         speed: 2 - Math.random() * 4,
-        innerX: 45,
-        innerY: 45,
-        outerX: 45,
-        outerY: 45,
+        innerX: 75,
+        innerY: 75,
+        outerX: 75,
+        outerY: 75,
         startingAngle: 0
         });
     var innerPendulum = pendulum[0];
@@ -54,7 +54,9 @@ function drawPendulum(canvas, pendulum){
     context.lineWidth = 1;
     context.stroke();
     context.closePath();
-    
+    /*
+    Copyright 2016 by David Hendrix http://blog.get-set-society-net 
+    */
 }
  
 function updatePendulum(pendulum){
