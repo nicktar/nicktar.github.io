@@ -14,7 +14,7 @@ During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java featu
 
 
 
-[<img src="{{ "/assets/disclaimer_small.png" | absolute_url}}" float="left" width="50%">][1]
+[<img src="{{ "/assets/disclaimer_small.png" | absolute_url}}" float="left" width="50%" />][1]
 
 ## Introduction ##
 
@@ -23,6 +23,8 @@ Brian Goetz talked about possibly upcoming features explicitly without making an
 ## The talk in detail ##
 
 ### Base Principles ###
+
+<img src="{{ "assets/futures_talk.jpg" | absolute_url}}" float="right" width="30%" />
 
 Some 10 years ago, Graham Hamilton outlined a few core principles to guide the future of Java. These are still valid.
 
@@ -199,7 +201,7 @@ public String convert(Object o) {
 
 With this, the code is a lot more compact, direct and less error prone.
 
-### There is even more ##
+### There is even more ###
 
 Somewhere further up, we talked about domain objects and how they, by omitting a lot of code would at the same time confirm that they would behave in certain ways and that their representation is tied to their constructor signature. Granting this would allow Java to reverse this operation. Instead of putting in the parameters and creating an Object, we could take an Object an deconstruct in into its parameters. This would allow us to use some kind of constructor pattern that would say, if the object I'm switching over is a data object, decompose it and give me the parameters it would have been constructed with to work on in the switch arm. 
 
@@ -230,4 +232,13 @@ Basic calculator done...
 
 Well, I tried to summarize, but I failed, this got extremely lengthy and doesn't even cover the whole talk, which you could watch on Youtube [<img src="https://img.youtube.com/vi/oGll155-vuQ/0.jpg">](https://www.youtube.com/watch?v=oGll155-vuQ). The remaining parts will be covered in separate articles.
 
+## Credits ##
+
+* The talk was given by Brian Goetz at [Devoxx Belgium] [4] in November 2016.
+* The disclaimer was taken from his slides via the video at youtube.
+* The photo of him is a cutout from a picture taken at the conference published on [flickr] [2] under a [CC BY-NC-SA 2.0] [3] license.
+
 [1]: {{ "/assets/disclaimer.png" | absolute_url }}
+[2]: https://www.flickr.com/photos/bejug/
+[3]: https://creativecommons.org/licenses/by-nc-sa/2.0/
+[4]: http://www.devoxx.be
