@@ -77,21 +77,54 @@ function resetPendulum() {
     var canvas = document.getElementById("spinner");
     var context = canvas.getContext("2d");
     context.clearRect(0, 0, canvas.width, canvas.height);
-    var pendulum = initPendulum();
-    animate(canvas, pendulum);
 }
- 
-function animate(canvas, pendulum){
+
+function startPendulum(run) {
+    var canvas = document.getElementById("spinner");
     var context = canvas.getContext("2d");
- 
-    // update
-    // draw
-    drawPendulum(canvas, pendulum);
- 
-    // request new frame
-    requestAnimFrame(function(){animate(canvas, pendulum);});
+    var pendulum = initPendulum();
+    animate(canvas, pendulum, run);
 }
  
+function animate(canvas, pendulum, run) {
+    if (run.value) {
+        var context = canvas.getContext("2d");
+ 
+        // update
+        // draw
+        drawPendulum(canvas, pendulum);
+ 
+        // request new frame
+        requestAnimFrame(function(){animate(canvas, pendulum, run);});
+    } else {
+        stopped.value = true;
+    }
+}
+
+var keepRunning = {
+    value: true
+};
+
+var stopped = {
+    value: false
+};
+
 window.onload = function(){
-    resetPendulum();
+    document.getElementById('spinner').addEventListener('click', function() {
+        keepRunning.value = false;
+
+        while (!stopped.value) {
+            // do nothing
+        }
+
+        resetPendulum();
+
+        keepRunning.value = true;
+
+        if(keepRunning.value) {
+          startPendulum(keepRunning)
+        }
+      });
+
+    startPendulum();
 };  
