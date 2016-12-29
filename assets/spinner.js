@@ -72,6 +72,14 @@ function updatePendulum(pendulum){
     outerPendulum.outerY = outerPendulum.innerY + (37 * Math.cos(outerPendulum.startingAngle));
 
 }
+
+function resetPendulum() {
+    var canvas = document.getElementById("spinner");
+    var context = canvas.getContext("2d");
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    var pendulum = initPendulum();
+    animate(canvas, pendulum);
+}
  
 function animate(canvas, pendulum){
     var context = canvas.getContext("2d");
@@ -85,7 +93,5 @@ function animate(canvas, pendulum){
 }
  
 window.onload = function(){
-    var canvas = document.getElementById("spinner");
-    var pendulum = initPendulum();
-    animate(canvas, pendulum);
+    resetPendulum();
 };  
