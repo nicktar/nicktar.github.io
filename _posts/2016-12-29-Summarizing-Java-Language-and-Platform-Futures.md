@@ -16,6 +16,7 @@ During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java featu
 
 <img src="{{ "/assets/disclaimer.png" | absolute_url}}" align="center" width="80%" hspace="30px" />
 <br clear="all" />
+
 ## Introduction ##
 
 Brian Goetz talked about possibly upcoming features explicitly without making any promises or committing on when or even if any of these might happen. I want to walk through the presented ideas one by one.
