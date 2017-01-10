@@ -10,6 +10,7 @@ categories:
 - language
 title: 'Summarizing: Java Language and Platform Futures: A Sneak Peek by Brian Goetz' 
 date: 2016-12-29 22:17:17.000000000 +02:00
+logo: assets/futures_talk.jpg
 ---
 During Devoxx Belgium 2016 Brian Goetz talked about possible upcoming Java features. This is of course highly speculative and Oracle doesn't commit to any of these but it gave an interesting insight into the things that might be coming and how Oracle might address some of the bigger pain points of Java Developers with no promises whatsoever made. 
 

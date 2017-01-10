@@ -25,7 +25,11 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} RSS" href="{{ "/feeds.xml" | absolute_url }}">
 
 <link rel="stylesheet" href="{{ "/assets/rrssb/css/rrssb.css" | absolute_url }}" />
+{% if page.logo %}
+<meta property="og:image" content="{{ page.logo | absolute_url }}" />
+{% else %}
 <meta property="og:image" content="{{ "/assets/logo.png" | absolute_url }}" />
+{% endif %}
 <meta property="og:title" content="{{ page.title }}" />
 
 </head>
