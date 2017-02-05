@@ -14,7 +14,7 @@ logo: assets/futures_talk.jpg
 ---
 
 
-"Project Valhalla aims to reboot the layout in memory." That was the main thesis when Brian Goetz talked about Project Valhalla at the Devoxx Belgium conference in 2016. While this differs from the original mission statement that was issued when the project was started in //TODO year, most of the other parts of this statementwere already covered in his talk on the future of Java. On 
+"Project Valhalla aims to reboot the layout in memory." That was the main thesis when Brian Goetz talked about Project Valhalla at the Devoxx Belgium conference in 2016. While this differs from the original mission statement that was issued when the project was started in //TODO year, most of the other parts of this statement were already covered in his talk on the future of Java.
 
 
 On the other hand this might indicate a shift in priorities inside the project I can only speculate about. With the current improvements in Hardware the original decisions for Java's memory layout might start to become a burden that needs to be lifted. The relative cost of a fetch vs. arithmetically getting the data increased by 200-1000x (30 years ago, both were about 4 cycles each, now a cache miss costs in the order of 300 cycles, in typical processors, the cost of an arithmetic operations went down to 0.25 cycles). So the ability of the JVM to take care of all of the memory issues and free the developert think about the real problems to solve is still a luxury that makes Java stand out among many of the other withspread languages, but it's a luxury that needs to be afforded and affordable.
@@ -35,7 +35,9 @@ The cost of being an object is twofold. For one there is the memory density of a
 
 This might be no issue while the datasets are small but as soon as you start to crunch serious amounts of numbers, like in BigData, this becomes an issue and a big one too.
 
-Developers will and do ruin their code for performance reasons wether or not they got real performance issues, metrics or requirements (see the example with the two arrays) just because they happen to know that the other way is slower. Making their code less readable, more error prone, less "doing what it says it does" and thus less maintainable. Stems from a bad choice that doesn't even have to be taken in most cases: "abstraction or perfomance, pick one"
+Developers will and do ruin their code for performance reasons wether or not they got real performance issues, metrics or requirements (see the example with the two arrays) just because they happen to know that the other way is slower. Making their code less readable, more error prone, less "doing what it says it does" and thus less maintainable. The behaviour of developers all over the globe stems from a bad choice that doesn't even have to be taken in most cases: "Abstraction or perfomance, pick one" is often asked aloud and even more often silent in your head as you work on your code. But usually you don't even have any quality metrics that can verify that your loss of abstraction is even delivering a performance gain and even if there are metrics in place, if you need to squeeze out these miniseconds by sacrificing abstraction, readability and maintainability, you're most likely not working on one of the projects that makes up the vast majority of todays Java code.
+
+To reduce this felt need for optimization even further, Project Valkyre aims to provide the developer with means to give the needed hints to the VM where mutability and locking and thus identity can be skipped and the cost of memory indirection can be avoided. 
 The VM can't figure out if a certain data structure will never be used in locking or never needs to be mutable and thus never rely on identity. The VM needs the help of the developer to keep him from taking that decision.
 values can be inlined
 

@@ -16,6 +16,9 @@ layout: default
       </h1>
     
       <div class="post-inner">
+        {% if post.logo %}
+        <img src="{{ post.logo | absolute_url }}" width="175px" align="right" margin="5px"/>
+        {% endif %}
           {{ post.excerpt }}
       </div>
     </article>
