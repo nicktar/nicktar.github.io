@@ -212,7 +212,7 @@
 				var button = $(this);
 
 				if (button.hasClass('small') === false) {
-					var txtWidth = parseFloat(button.attr('data-size')) + 55;
+					var txtWidth = parseFloat(button.attr('data-size')) + 57;
 					var btnWidth = parseFloat(button.width());
 
 					if (txtWidth > btnWidth) {
