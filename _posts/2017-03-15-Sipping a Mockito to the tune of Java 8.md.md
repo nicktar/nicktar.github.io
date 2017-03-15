@@ -17,6 +17,7 @@ Testing applications that use Java 8 language features with a mocking framework 
 
 ## New default return values
 
+<img src="{{ "assets/mojito.jpg" | absolute_url}}" align="left" width="320px" style="padding-right:5px" />
 Mockito used to return null for every method call that wasn't configured to return something (or a zero value for every method returning a primitive). This has changed for methods returning Optionals and Streams. While I still have to see many stream returning methods in the wild, Optional is just made to be returned, so changing the default behavior of that might sound scary if you already have tests covering those type of methods, it's a great improvement. Especially since the original behavior was close to useless for Optionals and if you tested those, you didn't use the default behavior in close to any case. 
 
 As of version 2, calls to method mocks with an Optional return value will result in an `Optional.empty()` and method calls returning a stream will yield an empty stream. If you for example consider this interface as the one you want to mock

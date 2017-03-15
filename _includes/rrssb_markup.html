@@ -81,8 +81,8 @@ jQuery(document).ready(function ($) {
     url: '{{ page.url | prepend: site.url}}',
 
     // optional:
-    description: '{{ page.excerpt }}',
-    emailBody: '{{page.excerpt }}\n' + url
+    description: "{{ page.excerpt | remove: '<p>' | remove: '</p>' | normalize_whitespace }}",
+    emailBody: "{{ page.excerpt | remove: '<p>' | remove: '</p>' | normalize_whitespace }}\n" + url
   });
 });
 </script>
