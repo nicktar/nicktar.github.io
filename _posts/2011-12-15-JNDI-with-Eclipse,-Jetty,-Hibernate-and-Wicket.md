@@ -6,9 +6,7 @@ tags:
 - apache wicket
 - c3po
 - hibernate
-- j2ee
 - jetty
-- jetty-env.xml
 - jndi
 - jpa
 categories:
@@ -91,5 +89,5 @@ So everything is done and we should be good to go, but nooo... At least in my ca
 
 Even with everything up and running, Hibernate reports no JNDI at startup. This might be because I use and configure C3PO via JNDI and Hibernate is most likely unaware of that or this applies to another level of JNDI.
 
-[1]: {% post_url 2011-04-24-Sending-an-email-programmatically-via-an-password-protected-SMTP-server | absolute_url%} 
+[1]: {% post_url 2011-04-24-Sending-an-email-programmatically-via-an-password-protected-SMTP-server %} 
             "a previous post (Sending an email programmatically via an password protected SMTP-server)"          
