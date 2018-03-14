@@ -12,7 +12,7 @@ title: Let's Encrypt now provides wildcard certificates
 date: 2018-03-14 18:24:26.000000000 +01:00
 logo: assets/le-logo-standard.png
 ---
-Josh Aas, ISRG Executive Director at ISRG, the entity behind [Let's Encrypt](https://www.letsencrypt.org) the free automated and open Certificate Authority [announced](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579) that they're now providing wildcard cerificates. While they had planned to do so starting in February, they had to postpone this feature due problems with their TLS-SNI domain validation that tied up a lot of their developer resources and prevented them from testing the ACME 2.0 protocol required for wildcard certificates.
+<img src="{{ "assetsle-logo-standard.png" | absolute_url}}" align="right" width="320px" style="padding-right:5px" />Josh Aas, ISRG Executive Director at ISRG, the entity behind [Let's Encrypt](https://www.letsencrypt.org) the free automated and open Certificate Authority [announced](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579) that they're now providing wildcard cerificates. While they had planned to do so starting in February, they had to postpone this feature due problems with their TLS-SNI domain validation that tied up a lot of their developer resources and prevented them from testing the ACME 2.0 protocol required for wildcard certificates.
 
 
 
