@@ -54,7 +54,7 @@ body {
 #title {
 	width: 52%;
 	height: 70%;
-	margin-left: 4%;
+	margin: auto;
 	overflow: hidden;
 	word-wrap: break-word;
 	}
