@@ -177,7 +177,9 @@ public class ListerWrapper implements IListerWrapper {
 <p> </p> 
 <p><u style="color: #02ff00;">Pro</u>: Plain Old Java, easy to write and easy to understand </p> 
 <p><u style="color: #ff0000;">Con</u>: Much code to write, many quite useless classes and interfaces, needs to reflect changes to your Annotation<br /></p><hr width="100%" size="2" /> 
-<p><u>The little hack</u><br /><br />An Annotation is in fact (as can be seen in the first solution) an Interface that can be implemented. But it can be proxied as well...</p> 
+<p><u>The little hack</u><br />
+<br />
+An Annotation is in fact (as can be seen in the first solution) an Interface that can be implemented. But it can be proxied as well...</p> 
 
 {% highlight java linenos  %}
 {Lister.class, Annotation.class}, new InvocationHandler() {
