@@ -17,7 +17,7 @@ layout: default
     
       <div class="post-inner">
         {% if post.logo %}
-        <img src="{{ post.logo | absolute_url }}" width="175px" align="right" margin="5px"/>
+        <img src="{{ post.logo | relative_url }}" width="175px" align="right" margin="5px"/>
         {% endif %}
           {{ post.excerpt }}
       </div>
