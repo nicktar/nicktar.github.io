@@ -29,20 +29,7 @@ These were:
 
 The first part was kind of easy...
 
-First I wrote my landing-page with a PageParameter-accepting constructor
-
-{% highlight java linenos %}
-package de.gwassist.wicket
- 
-public class GwaApplication extends WicketApplication {
-    protected void init() {
-       super.init();
-       mount("/landing",PackageName.forClass(ActivateAccountPage.class));
-    }
-}
-{% endhighlight %} 
-
-and extended my application's init() method to
+First I wrote my landing-page with a PageParameter-accepting constructor and extended my application's init() method to
 
 {% highlight java linenos %}
 package de.gwassist.wicket
